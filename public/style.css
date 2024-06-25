@@ -3,10 +3,15 @@
   --secondary-color: #2ecc71;
   --font-size: 16px;
 }
-.card-image {
-  object-fit: cover;
+
+/* EX small screen */
+@media screen and (max-width: 576px) {
+  .card-image {
+    object-fit: cover;
+  }
 }
 
+/* md screen */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .card-image {
     object-fit: cover;
@@ -14,6 +19,7 @@
   }
 }
 
+/* lg screen */
 @media screen and (min-width: 992px) {
   .card-image {
     object-fit: cover;
@@ -21,3 +27,10 @@
   }
 }
 
+/* EX screen */
+@media screen and (min-width: 1200px) {
+  .card-image {
+    object-fit: cover;
+    height: 525px;
+  }
+}
