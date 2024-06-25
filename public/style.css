@@ -3,6 +3,9 @@
   --secondary-color: #2ecc71;
   --font-size: 16px;
 }
+.card-image {
+  object-fit: cover;
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .card-image {
