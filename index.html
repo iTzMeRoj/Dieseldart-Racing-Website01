@@ -1,257 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap practice</title>
 
-    <!-- BOOTSTRAP LINK -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap practice</title>
 
-    <!-- CSS LINK -->
-    <link rel="stylesheet" href="./public/style.css" />
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md shadow-sm">
-      <div class="container-md">
-        <!-- LOGO -->
-        <a class="navbar-brand" href="#">
-          <img
-            src="./public/logo racing.png"
-            alt="logo"
-            height="80"
-            class="d-md-none"
-          />
-          <img
-            src="./public/logo rile.png"
-            alt="logo"
-            height="80"
-            class="d-none d-md-inline"
-          />
-        </a>
+  <!-- BOOTSTRAP LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-        <!-- TOGGLE BUTTON -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Register</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
-            </li>
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="./public/style.css" />
+</head>
 
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="https://www.youtube.com/@darwintajil7370/featured"
-                target="_blank"
-                >Youtube</a
-              >
-            </li>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md shadow-sm">
+    <div class="container-md">
+      <!-- LOGO -->
+      <a class="navbar-brand" href="#">
+        <img src="./public/logo racing.png" alt="logo" height="80" class="d-md-none" />
+        <img src="./public/logo rile.png" alt="logo" height="80" class="d-none d-md-inline" />
+      </a>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary ms-md-3" href="#" target="_blank"
-                >Sign In</a
-              >
-            </li>
-          </ul>
-        </div>
+      <!-- TOGGLE BUTTON -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/@darwintajil7370/featured" target="_blank">Youtube</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary ms-md-3" href="#" target="_blank">Sign In</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- ABOUT SECTION -->
-    <div class="container col-xxl-8 px-4">
-      <div class="row flex-lg-row-reverse align-items-center g-4 py-5">
-        <div class="col-12 col-lg-6">
-          <img
-            src="./public/logo.jpg"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
-        </div>
-        <div class="col-12 col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-            DieselDart Racing
-          </h1>
-          <p class="lead">
-            At Dieseldart Racing. It's a group founded and established by
-            <strong>Darwin L. Tajil</strong> for the sole purpose of organizing
-            and interacting with fellow riders in Merida especially in Leyte
-            Province. we organize and held countless racing events every year
-            excluding private off-road rides with his close friends on weekends.
+  <!-- ABOUT SECTION -->
+  <div class="container col-xxl-8 px-4">
+    <div class="row flex-lg-row-reverse align-items-center g-4 py-5">
+      <div class="col-12 col-lg-6">
+        <img src="./public/logo.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy" />
+      </div>
+      <div class="col-12 col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+          DieselDart Racing
+        </h1>
+        <p class="lead">
+          At Dieseldart Racing. It's a group founded and established by
+          <strong>Darwin L. Tajil</strong> for the sole purpose of organizing
+          and interacting with fellow riders in Merida especially in Leyte
+          Province. we organize and held countless racing events every year
+          excluding private off-road rides with his close friends on weekends.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MEMBERS -->
+  <div>
+    <h2 class="pb-2 px-4 border-bottom">Members</h2>
+  </div>
+
+  <!-- Member 1 -->
+  <div class="row row-cols-1 row-cols-lg-3 g-4 px-5 row-cols-md-2">
+
+    <div class="col">
+      <div class="card text-center h-100">
+        <img src="./public/darwin.jpg" class="card-img-top" alt="darwin" />
+        <div class="card-body">
+          <h5 class="card-title">Darwin L Tajil</h5>
+          <p class="card-text">
+            Group Founder and Leader of Dieseldart Racing Group in charge of
+            certain events held in Merida, Leyte and sometimes joins with
+            other Enduro enthusiasts.
           </p>
         </div>
-      </div>
-    </div>
-
-    <!-- MEMBERS -->
-
-    <!-- Member 1 -->
-     <div>
-      <h2 class="pb-2 px-4 border-bottom">Members</h2>
-     </div>
-     
-    <div class="row row-cols-1 row-cols-lg-3 g-4 px-5 row-cols-md-2">
-      
-      <div class="col">
-        <div class="card text-center h-100">
-          <img src="./public/darwin.jpg" class="card-img-top" alt="darwin" />
-          <div class="card-body">
-            <h5 class="card-title">Darwin L Tajil</h5>
-            <p class="card-text">
-              Group Founder and Leader of Dieseldart Racing Group in charge of
-              certain events held in Merida, Leyte and sometimes joins with
-              other Enduro enthusiasts.
-            </p>
-          </div>
-          <div class="d-grid gap-2 col-5 mx-auto py-3">
-            <button type="button" class="btn btn-primary">
-              <a href="https://www.facebook.com/darwinlorenz.tajil"></a>Profile
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Member 2 -->
-      <div class="col">
-        <div class="card text-center h-100">
-          <img
-            src="./public/bayo1.jpg"
-            class="card-img-top card-image"
-            alt="bayo"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Leomar (bayo) Nodalo</h5>
-            <p class="card-text">
-              Driver of sir Darwin Tajil but also a formidable rider using his
-              infamous green KLX motorcycle has an incredible record of winning
-              a certain number of races within Province of Leyte and some
-              outside.
-            </p>
-          </div>
-          <div class="d-grid gap-2 col-5 mx-auto py-3">
-            <button type="button" class="btn btn-primary">
-              <a href="https://www.facebook.com/leomar.nodalo.3"></a>Profile
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Member 3 -->
-      <div class="col">
-        <div class="card text-center h-100">
-          <img
-            src="./public/ishanS1.jpg"
-            class="card-img-top card-image"
-            alt="Ishan"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Isagani (Ishan) Santos Jr.</h5>
-            <p class="card-text">
-              Nephew of the founder the first of his nephew to learn to rider
-              off-road motorcycle. Joined the group and even get an autograph
-              from a famous enduro rider.
-            </p>
-          </div>
-          <div class="d-grid gap-2 col-5 mx-auto py-3">
-            <button type="button" class="btn btn-primary">
-              <a href="https://www.facebook.com/ishan.tajil"></a>Profile
-            </button>
-          </div>
+        <div class="d-grid gap-2 col-5 mx-auto py-3">
+          <button type="button" class="btn btn-primary">
+            <a href="https://www.facebook.com/darwinlorenz.tajil"></a>Profile
+          </button>
         </div>
       </div>
     </div>
 
-    <!-- Featured Events -->
-     <div>
-      <h2 class="pb-2 border-bottom">Events</h2>
-     </div>
-     
-    <div class="container px-4 py-5" id="custom-cards">
-      
+    <!-- Member 2 -->
+    <div class="col">
+      <div class="card text-center h-100">
+        <img src="./public/bayo1.jpg" class="card-img-top card-image" alt="bayo" />
+        <div class="card-body">
+          <h5 class="card-title">Leomar (bayo) Nodalo</h5>
+          <p class="card-text">
+            Driver of sir Darwin Tajil but also a formidable rider using his
+            infamous green KLX motorcycle has an incredible record of winning
+            a certain number of races within Province of Leyte and some
+            outside.
+          </p>
+        </div>
+        <div class="d-grid gap-2 col-5 mx-auto py-3">
+          <button type="button" class="btn btn-primary">
+            <a href="https://www.facebook.com/leomar.nodalo.3"></a>Profile
+          </button>
+        </div>
+      </div>
+    </div>
 
-      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <div class="col">
-          <div
-            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style="background-image: url(../Dieseldart-Racing-Website01/public/enduro\ ormoc\ event1.jpg)"
-          >
-            <div
-              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
-            >
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                1st Ormoc Enduro Event
-              </h3>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img
-                    src="./public/enduro ormoc event.jpg"
-                    alt="Bootstrap"
-                    width="32"
-                    height="32"
-                    class="rounded-circle border border-white"
-                  />
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#geo-fill"></use>
-                  </svg>
-                  <small>Enduro</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em">
-                    <use xlink:href="#calendar3"></use>
-                  </svg>
-                  <small>10d ago</small>
-                </li>
-              </ul>
-            </div>
+    <!-- Member 3 -->
+    <div class="col">
+      <div class="card text-center h-100">
+        <img src="./public/ishanS1.jpg" class="card-img-top card-image" alt="Ishan" />
+        <div class="card-body">
+          <h5 class="card-title">Isagani (Ishan) Santos Jr.</h5>
+          <p class="card-text">
+            Nephew of the founder the first of his nephew to learn to rider
+            off-road motorcycle. Joined the group and even get an autograph
+            from a famous enduro rider.
+          </p>
+        </div>
+        <div class="d-grid gap-2 col-5 mx-auto py-3">
+          <button type="button" class="btn btn-primary">
+            <a href="https://www.facebook.com/ishan.tajil"></a>Profile
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Events -->
+  <div>
+    <h2 class="pb-2 border-bottom">Events</h2>
+  </div>
+
+  <div class="container px-4 py-5" id="custom-cards">
+
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url(../Dieseldart-Racing-Website01/public/enduro\ ormoc\ event1.jpg)">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+              1st Ormoc Enduro Event
+            </h3>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="./public/enduro ormoc event.jpg" alt="Bootstrap" width="32" height="32"
+                  class="rounded-circle border border-white" />
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+                <small>Enduro</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3"></use>
+                </svg>
+                <small>10d ago</small>
+              </li>
+            </ul>
           </div>
         </div>
+      </div>
 
-    <!-- EVENT LIST -->
-    <div>Event List</div>
+      <!-- EVENT LIST -->
+      <div>Event List</div>
 
-    <!-- FOOTER -->
-    <div>footer</div>
+      <!-- FOOTER -->
+      <div>footer</div>
 
-    <!-- JS SCRIPT -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <!-- JS SCRIPT -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
