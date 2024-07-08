@@ -25,6 +25,10 @@
     object-fit: cover;
     height: 510px;
   }
+
+  slide-img {
+    height: 100px;
+  }
 }
 
 /* EX screen */
@@ -32,5 +36,9 @@
   .card-image {
     object-fit: cover;
     height: 525px;
+  }
+
+  carousel-item {
+    height: 50px;
   }
 }
