@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Convergence&display=swap");
 
-*,
-*::before,
-*::after {
+.registration-form,
+.registration-form::before,
+.registration-form::after {
   margin: 0.5rem;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+.registration-form {
   font-family: "Convergence", sans-serif;
   height: 100%;
   display: grid;
